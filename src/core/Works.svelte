@@ -30,7 +30,7 @@
         >
       </div>
       {#if showInfo}
-        <div transition:slide>
+        <div class="details-whole" transition:slide>
           <p class="details">
             I worked as frontend developer and scrum master in this project. I
             oversaw creating a responsive mobile design for our application and
@@ -185,5 +185,10 @@
 
   .details {
     margin-bottom: 1em;
+  }
+
+  .details-whole {
+    margin-left: 25%;
+    width: 50%;
   }
 </style>

@@ -8,7 +8,7 @@
 <style>
   .header {
     background-color: rgb(0, 0, 0);
-    background-image: url('./images/banner.png');
+    background-image: url('/images/banner.png');
   }
 
   h1 {

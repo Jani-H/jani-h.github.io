@@ -15,7 +15,7 @@
 <style>
   :global(:root) {
     background-color: #222222;
-    background-image: url('./images/background.png');
+    background-image: url('/images/background.png');
     background-repeat: repeat;
     background-size: 256px 256px;
   }

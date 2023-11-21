@@ -72,7 +72,24 @@
         </div>
       {/if}
     </div>
-    <Carousel>
+    <Carousel let:showPrevPage let:showNextPage>
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <div
+        slot="prev"
+        on:click={showPrevPage}
+        class="custom-arrow custom-arrow-prev"
+      >
+        <svg
+          class="back-arrow"
+          xmlns="http://www.w3.org/2000/svg"
+          height="24"
+          viewBox="0 -960 960 960"
+          width="24"
+          ><path
+            d="m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z"
+          /></svg
+        >
+      </div>
       <img
         class="image"
         src="./images/tournament-assembly-main-page.png"
@@ -108,6 +125,23 @@
         src="./images/tournament-assembly-responsive-2.png"
         alt="TournamentAssemblyPicture"
       />
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <div
+        slot="next"
+        on:click={showNextPage}
+        class="custom-arrow custom-arrow-next"
+      >
+        <svg
+          class="next-arrow"
+          xmlns="http://www.w3.org/2000/svg"
+          height="24"
+          viewBox="0 -960 960 960"
+          width="24"
+          ><path
+            d="m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z"
+          /></svg
+        >
+      </div>
     </Carousel>
   </div>
   <hr class="divider" />
@@ -118,7 +152,24 @@
       <img id="github" src="./images/GitHub_Logo_White.png" alt="GitHubImage" />
     </a>
     <p />
-    <Carousel>
+    <Carousel let:showPrevPage let:showNextPage>
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <div
+        slot="prev"
+        on:click={showPrevPage}
+        class="custom-arrow custom-arrow-prev"
+      >
+        <svg
+          class="back-arrow"
+          xmlns="http://www.w3.org/2000/svg"
+          height="24"
+          viewBox="0 -960 960 960"
+          width="24"
+          ><path
+            d="m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z"
+          /></svg
+        >
+      </div>
       <img
         class="image"
         src="./images/cocktail-library-home.png"
@@ -136,6 +187,23 @@
         src="./images/cocktail-library-cocktails-open.png"
         alt="CocktailLibraryPicture"
       />
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <div
+        slot="next"
+        on:click={showNextPage}
+        class="custom-arrow custom-arrow-next"
+      >
+        <svg
+          class="next-arrow"
+          xmlns="http://www.w3.org/2000/svg"
+          height="24"
+          viewBox="0 -960 960 960"
+          width="24"
+          ><path
+            d="m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z"
+          /></svg
+        >
+      </div>
     </Carousel>
   </div>
 </main>
@@ -167,6 +235,7 @@
   .image {
     width: auto;
     height: 400px;
+    object-fit: contain;
   }
 
   .show-info {
@@ -190,5 +259,38 @@
   .details-whole {
     margin-left: 25%;
     width: 50%;
+  }
+
+  .back-arrow {
+    fill: #fff;
+    transform: rotate(180deg);
+  }
+
+  .next-arrow {
+    fill: #fff;
+  }
+
+  .custom-arrow {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    z-index: 10;
+  }
+
+  .custom-arrow-prev {
+    margin-right: 0.5em;
+    left: -3em;
+  }
+
+  .custom-arrow-next {
+    margin-left: 0.5em;
+    right: -3em;
   }
 </style>

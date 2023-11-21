@@ -14,4 +14,12 @@
   };
 </script>
 
-<Router {routes} />
+<main>
+  <Router {routes} />
+</main>
+
+<style>
+  main {
+    padding-bottom: 5em;
+  }
+</style>

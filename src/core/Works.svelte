@@ -257,8 +257,8 @@
   }
 
   .details-whole {
-    margin-left: 25%;
-    width: 50%;
+    margin-left: 12.5%;
+    width: 75%;
   }
 
   .back-arrow {

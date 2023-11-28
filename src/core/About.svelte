@@ -82,12 +82,17 @@
     border-radius: 5px;
     flex: 1;
     padding: 0.5em 0.5em;
-    max-width: 30em;
+    min-width: 20em;
+    box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.5);
   }
 
   h2 {
     text-decoration: underline;
+  }
+
+  p {
+    font-size: 1.2em;
   }
 
   img {

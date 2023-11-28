@@ -1,12 +1,12 @@
 <script>
-  import { push } from 'svelte-spa-router';
+  import { push, location } from 'svelte-spa-router';
 </script>
 
 <nav>
   <ul>
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <!-- svelte-ignore a11y-missing-attribute -->
-    <a on:click={() => push('/')}>Home</a>
+    <a on:click={() => push('/')}> Home </a>
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <!-- svelte-ignore a11y-missing-attribute -->
     <a on:click={() => push('/about')}>About</a>
@@ -30,5 +30,13 @@
   a {
     font-size: 1.25em;
     padding: 0em 1em;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }
+
+  a:visited {
+    text-decoration: underline;
   }
 </style>

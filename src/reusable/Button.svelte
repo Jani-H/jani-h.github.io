@@ -28,11 +28,7 @@
     padding: 0.25em 0.5em;
     border: solid 1px #ffffff77;
     border-radius: 10px;
-    background: linear-gradient(
-      129deg,
-      rgba(255, 255, 255, 0.5) 0%,
-      rgba(0, 0, 0, 0.5) 100%
-    );
+    background: rgba(0, 0, 0);
     color: whitesmoke;
     transition-duration: 0.1s;
     cursor: pointer;
@@ -43,13 +39,15 @@
   }
 
   button:hover {
-    color: black;
-    border: solid 1px #000000;
+    background: rgb(64, 64, 64);
+    border: solid 1px #ffffff;
     filter: brightness(1.2);
     filter: contrast(1.1);
   }
 
   .info-button {
+    padding-top: 0em;
+    padding-bottom: 0.25em;
     margin-bottom: 0.5em;
   }
 </style>

@@ -11,22 +11,53 @@
 
 <main transition:slide>
   <div class="work-box">
-    <h2>Tournament Assembly</h2>
-    <p class="description">
-      I worked on this with a group of students for a JAMK assignment. I created
-      necessary components, content and made the site responsive for mobile
-      devices.
-    </p>
-    <a
-      href="https://github.com/jamktiko/TournamentAssembly-svelte"
-      target="_blank"
-    >
-      <img id="github" src="./images/GitHub_Logo_White.png" alt="GitHubImage" />
-    </a>
+    <div class="work-info">
+      <h2>Tournament Assembly</h2>
+      <p class="description">
+        I worked on this with a group of students for a JAMK assignment. I
+        created necessary components, content and made the site responsive for
+        mobile devices.
+      </p>
+    </div>
+    <div class="work-links">
+      <a
+        href="https://github.com/jamktiko/TournamentAssembly-svelte"
+        target="_blank"
+      >
+        <img
+          id="github"
+          src="./images/GitHub_Logo_White.png"
+          alt="GitHubImage"
+        />
+      </a>
+    </div>
     <div>
       <div class="show-info">
         <Button class="info-button" on:cClick={toggleInfo}
-          >What I worked on this project in detail</Button
+          >What I worked on this project in detail
+          {#if !showInfo}
+            <svg
+              class="expand-arrow"
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+              ><path
+                d="M480-345 240-585l56-56 184 184 184-184 56 56-240 240Z"
+              /></svg
+            >
+          {:else}
+            <svg
+              class="less-arrow"
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+              ><path
+                d="m296-345-56-56 240-240 240 240-56 56-184-184-184 184Z"
+              /></svg
+            >
+          {/if}</Button
         >
       </div>
       {#if showInfo}
@@ -72,7 +103,13 @@
         </div>
       {/if}
     </div>
-    <Carousel let:showPrevPage let:showNextPage>
+    <Carousel
+      let:showPrevPage
+      let:showNextPage
+      autoplay
+      autoplayDuration={5000}
+      pauseOnFocus
+    >
       <!-- svelte-ignore a11y-click-events-have-key-events -->
       <div
         slot="prev"
@@ -146,67 +183,81 @@
   </div>
   <hr class="divider" />
   <div class="work-box">
-    <h2>Cocktail Library</h2>
-    <p class="description">Frontend Project I made for a JAMK assignment.</p>
-    <a href="https://github.com/Jani-H/cocktail-library-aa4087" target="_blank">
-      <img id="github" src="./images/GitHub_Logo_White.png" alt="GitHubImage" />
-    </a>
-    <p />
-    <div class="carousel-div">
-      <Carousel let:showPrevPage let:showNextPage>
-        <!-- svelte-ignore a11y-click-events-have-key-events -->
-        <div
-          slot="prev"
-          on:click={showPrevPage}
-          class="custom-arrow custom-arrow-prev"
-        >
-          <svg
-            class="back-arrow"
-            xmlns="http://www.w3.org/2000/svg"
-            height="24"
-            viewBox="0 -960 960 960"
-            width="24"
-            ><path
-              d="m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z"
-            /></svg
-          >
-        </div>
-        <img
-          class="image"
-          src="./images/cocktail-library-home.png"
-          alt="CocktailLibraryPicture"
-        />
-
-        <img
-          class="image"
-          src="./images/cocktail-library-cocktails.png"
-          alt="CocktailLibraryPicture"
-        />
-
-        <img
-          class="image"
-          src="./images/cocktail-library-cocktails-open.png"
-          alt="CocktailLibraryPicture"
-        />
-        <!-- svelte-ignore a11y-click-events-have-key-events -->
-        <div
-          slot="next"
-          on:click={showNextPage}
-          class="custom-arrow custom-arrow-next"
-        >
-          <svg
-            class="next-arrow"
-            xmlns="http://www.w3.org/2000/svg"
-            height="24"
-            viewBox="0 -960 960 960"
-            width="24"
-            ><path
-              d="m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z"
-            /></svg
-          >
-        </div>
-      </Carousel>
+    <div class="work-info">
+      <h2>Cocktail Library</h2>
+      <p class="description">Frontend Project I made for a JAMK assignment.</p>
     </div>
+    <div class="work-links">
+      <a
+        href="https://github.com/Jani-H/cocktail-library-aa4087"
+        target="_blank"
+      >
+        <img
+          id="github"
+          src="./images/GitHub_Logo_White.png"
+          alt="GitHubImage"
+        />
+      </a>
+    </div>
+    <Carousel
+      let:showPrevPage
+      let:showNextPage
+      autoplay
+      autoplayDuration={5000}
+      pauseOnFocus
+    >
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <div
+        slot="prev"
+        on:click={showPrevPage}
+        class="custom-arrow custom-arrow-prev"
+      >
+        <svg
+          class="back-arrow"
+          xmlns="http://www.w3.org/2000/svg"
+          height="24"
+          viewBox="0 -960 960 960"
+          width="24"
+          ><path
+            d="m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z"
+          /></svg
+        >
+      </div>
+      <img
+        class="image"
+        src="./images/cocktail-library-home.png"
+        alt="CocktailLibraryPicture"
+      />
+
+      <img
+        class="image"
+        src="./images/cocktail-library-cocktails.png"
+        alt="CocktailLibraryPicture"
+      />
+
+      <img
+        class="image"
+        src="./images/cocktail-library-cocktails-open.png"
+        alt="CocktailLibraryPicture"
+      />
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <div
+        slot="next"
+        on:click={showNextPage}
+        class="custom-arrow custom-arrow-next"
+      >
+        <svg
+          class="next-arrow"
+          xmlns="http://www.w3.org/2000/svg"
+          height="24"
+          viewBox="0 -960 960 960"
+          width="24"
+          ><path
+            d="m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z"
+          /></svg
+        >
+      </div>
+    </Carousel>
   </div>
 </main>
 
@@ -220,10 +271,15 @@
     text-decoration: underline;
   }
 
+  p {
+    font-size: 1.2em;
+  }
+
   a {
     display: flex;
     justify-content: center;
     margin-bottom: 0.25em;
+    width: 6em;
   }
 
   img {
@@ -232,7 +288,6 @@
   }
 
   .work-box {
-    justify-content: center;
     margin: 1em 5em;
     border-style: solid;
     border-color: black;
@@ -243,8 +298,14 @@
     background-color: rgba(0, 0, 0, 0.5);
   }
 
-  .carousel-div {
-    width: 30em;
+  .work-info {
+    justify-content: center;
+  }
+
+  .work-links {
+    display: flex;
+    justify-content: center;
+    margin: 0.25em 0em;
   }
 
   .image {
@@ -285,6 +346,18 @@
     fill: #fff;
   }
 
+  .expand-arrow {
+    fill: #fff;
+    position: relative;
+    top: 0.5em;
+  }
+
+  .less-arrow {
+    fill: #fff;
+    position: relative;
+    top: 0.4em;
+  }
+
   .custom-arrow {
     cursor: pointer;
     width: 40px;
@@ -294,7 +367,7 @@
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.25);
     border-radius: 50%;
-    position: absolute;
+    position: fixed;
     top: 45%;
     z-index: 10;
   }

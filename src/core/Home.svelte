@@ -4,10 +4,10 @@
 
 <main transition:slide>
   <h1>Welcome to my portfolio!</h1>
-  <h2>
+  <p>
     You can find info about me and projects I have worked on from the menu
     above.
-  </h2>
+  </p>
 </main>
 
 <style>
@@ -30,5 +30,9 @@
   h1 {
     padding: 1em;
     text-align: center;
+  }
+
+  p {
+    font-size: 1.2em;
   }
 </style>

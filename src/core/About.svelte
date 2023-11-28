@@ -66,7 +66,7 @@
 
 <style>
   main {
-    margin: 0em 15em;
+    margin: 1em 15em;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 0.25em;
@@ -75,14 +75,19 @@
   }
 
   .info-box {
-    margin: 0.25em;
+    margin: 0em;
     border-style: solid;
     border-color: black;
     border-width: 1px;
     border-radius: 5px;
     flex: 1;
     padding: 0.5em 0.5em;
+    max-width: 30em;
     background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  h2 {
+    text-decoration: underline;
   }
 
   img {

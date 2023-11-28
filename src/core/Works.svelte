@@ -152,59 +152,61 @@
       <img id="github" src="./images/GitHub_Logo_White.png" alt="GitHubImage" />
     </a>
     <p />
-    <Carousel let:showPrevPage let:showNextPage>
-      <!-- svelte-ignore a11y-click-events-have-key-events -->
-      <div
-        slot="prev"
-        on:click={showPrevPage}
-        class="custom-arrow custom-arrow-prev"
-      >
-        <svg
-          class="back-arrow"
-          xmlns="http://www.w3.org/2000/svg"
-          height="24"
-          viewBox="0 -960 960 960"
-          width="24"
-          ><path
-            d="m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z"
-          /></svg
+    <div class="carousel-div">
+      <Carousel let:showPrevPage let:showNextPage>
+        <!-- svelte-ignore a11y-click-events-have-key-events -->
+        <div
+          slot="prev"
+          on:click={showPrevPage}
+          class="custom-arrow custom-arrow-prev"
         >
-      </div>
-      <img
-        class="image"
-        src="./images/cocktail-library-home.png"
-        alt="CocktailLibraryPicture"
-      />
+          <svg
+            class="back-arrow"
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 -960 960 960"
+            width="24"
+            ><path
+              d="m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z"
+            /></svg
+          >
+        </div>
+        <img
+          class="image"
+          src="./images/cocktail-library-home.png"
+          alt="CocktailLibraryPicture"
+        />
 
-      <img
-        class="image"
-        src="./images/cocktail-library-cocktails.png"
-        alt="CocktailLibraryPicture"
-      />
+        <img
+          class="image"
+          src="./images/cocktail-library-cocktails.png"
+          alt="CocktailLibraryPicture"
+        />
 
-      <img
-        class="image"
-        src="./images/cocktail-library-cocktails-open.png"
-        alt="CocktailLibraryPicture"
-      />
-      <!-- svelte-ignore a11y-click-events-have-key-events -->
-      <div
-        slot="next"
-        on:click={showNextPage}
-        class="custom-arrow custom-arrow-next"
-      >
-        <svg
-          class="next-arrow"
-          xmlns="http://www.w3.org/2000/svg"
-          height="24"
-          viewBox="0 -960 960 960"
-          width="24"
-          ><path
-            d="m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z"
-          /></svg
+        <img
+          class="image"
+          src="./images/cocktail-library-cocktails-open.png"
+          alt="CocktailLibraryPicture"
+        />
+        <!-- svelte-ignore a11y-click-events-have-key-events -->
+        <div
+          slot="next"
+          on:click={showNextPage}
+          class="custom-arrow custom-arrow-next"
         >
-      </div>
-    </Carousel>
+          <svg
+            class="next-arrow"
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 -960 960 960"
+            width="24"
+            ><path
+              d="m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z"
+            /></svg
+          >
+        </div>
+      </Carousel>
+    </div>
   </div>
 </main>
 
@@ -215,6 +217,7 @@
 
   h2 {
     text-align: center;
+    text-decoration: underline;
   }
 
   a {
@@ -229,7 +232,19 @@
   }
 
   .work-box {
-    margin: 1em 15em;
+    justify-content: center;
+    margin: 1em 5em;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+    flex: 1;
+    padding: 0.5em 0.5em;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .carousel-div {
+    width: 30em;
   }
 
   .image {
@@ -277,7 +292,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.25);
     border-radius: 50%;
     position: absolute;
     top: 45%;
@@ -285,12 +300,16 @@
   }
 
   .custom-arrow-prev {
+    position: relative;
     margin-right: 0.5em;
-    left: -3em;
+    left: 0em;
+    top: 11em;
   }
 
   .custom-arrow-next {
+    position: relative;
     margin-left: 0.5em;
-    right: -3em;
+    right: 0em;
+    top: 11em;
   }
 </style>

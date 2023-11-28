@@ -41,6 +41,7 @@
       </p>
       <p>Job duration 8 months</p>
     </div>
+    <br />
     <div>
       <h3>Saimaan talous ja tieto Oy, summer job 2015</h3>
       <p>IT-support intern</p>
@@ -57,6 +58,7 @@
       <h3>Jyväskylä University of Applied Sciences, XX.XX.20XX</h3>
       <p>Tietojenkäsittely tradenomi tutkinto-ohjelma</p>
     </div>
+    <br />
     <div>
       <h3>Saimaan ammattiopisto Sampo, 31.03.2016</h3>
       <p>Tieto- ja viestintätekniikan perustutkinto</p>

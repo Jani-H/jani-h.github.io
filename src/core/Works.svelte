@@ -14,9 +14,11 @@
     <div class="work-info">
       <h2>Tournament Assembly</h2>
       <p class="description">
-        I worked on this with a group of students for a JAMK assignment. I
-        created necessary components, content and made the site responsive for
-        mobile devices.
+        I worked on this with a group of students in JAMK during our third years
+        fall semester.
+        <br />
+        I worked on the applications frontend and UI/UX where I created necessary
+        components, content and made the site responsive for mobile devices.
       </p>
     </div>
     <div class="work-links">
@@ -185,7 +187,11 @@
   <div class="work-box">
     <div class="work-info">
       <h2>Cocktail Library</h2>
-      <p class="description">Frontend Project I made for a JAMK assignment.</p>
+      <p class="description">
+        I created this application as a final assignment for JAMK's Frontend
+        Basics course. I had fun creating this application by using an public
+        API.
+      </p>
     </div>
     <div class="work-links">
       <a
@@ -259,6 +265,71 @@
       </div>
     </Carousel>
   </div>
+  <hr class="divider" />
+  <div class="work-box">
+    <div class="work-info">
+      <h2>Smart Home Application Design</h2>
+      <p class="description">
+        I created this at Web UI 2 course in JAMK, it was for the last
+        assignment of the course which was to design application from scratch.
+        <br />
+        I decided to go with Smart Home application. I designed a wireframe and UI-plan
+        for the application.
+      </p>
+    </div>
+    <div class="work-links">
+      <a
+        href="https://www.figma.com/file/ddiSMnFX98X71chtMVBeZt/Lopputy%C3%B6-Rautalankamalli-ja-UI-suunnitelma?node-id=0%3A1"
+        target="_blank"
+      >
+        <img id="figma" src="./images/figma-logo.webp" alt="FigmaImage" />
+      </a>
+    </div>
+    <Carousel
+      let:showPrevPage
+      let:showNextPage
+      autoplay
+      autoplayDuration={5000}
+      pauseOnFocus
+    >
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <div
+        slot="prev"
+        on:click={showPrevPage}
+        class="custom-arrow custom-arrow-prev"
+      >
+        <svg
+          class="back-arrow"
+          xmlns="http://www.w3.org/2000/svg"
+          height="24"
+          viewBox="0 -960 960 960"
+          width="24"
+          ><path
+            d="m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z"
+          /></svg
+        >
+      </div>
+      <img class="image" src="./images/ui-final.png" alt="UI-Design1" />
+      <img class="image" src="./images/wireframe.png" alt="UI-Design2" />
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <div
+        slot="next"
+        on:click={showNextPage}
+        class="custom-arrow custom-arrow-next"
+      >
+        <svg
+          class="next-arrow"
+          xmlns="http://www.w3.org/2000/svg"
+          height="24"
+          viewBox="0 -960 960 960"
+          width="24"
+          ><path
+            d="m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z"
+          /></svg
+        >
+      </div>
+    </Carousel>
+  </div>
 </main>
 
 <style>
@@ -279,12 +350,17 @@
     display: flex;
     justify-content: center;
     margin-bottom: 0.25em;
-    width: 6em;
+    width: 5em;
   }
 
   img {
     width: 100px;
     height: auto;
+  }
+
+  #figma {
+    width: 4em;
+    height: 4em;
   }
 
   .work-box {

@@ -10,7 +10,7 @@
     '/': Home,
     '/about': About,
     '/contact': Contact,
-    '/works': Works,
+    '/projects': Works,
   };
 </script>
 

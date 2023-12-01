@@ -35,4 +35,10 @@
   p {
     font-size: 1.2em;
   }
+
+  @media screen and (max-width: 400px) {
+    main {
+      margin: 1em 1em;
+    }
+  }
 </style>

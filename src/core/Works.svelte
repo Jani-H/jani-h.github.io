@@ -461,4 +461,26 @@
     right: 0em;
     top: 11em;
   }
+
+  @media screen and (max-width: 700px) {
+    .work-box {
+      margin: 1em 1em;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .image {
+      width: auto;
+      height: 200px;
+      object-fit: contain;
+    }
+
+    .custom-arrow-prev {
+      top: 5em;
+    }
+
+    .custom-arrow-next {
+      top: 5em;
+    }
+  }
 </style>

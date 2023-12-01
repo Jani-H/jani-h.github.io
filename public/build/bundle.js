@@ -1,5 +1,5 @@
 
-(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
+(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35730/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
 var app = (function () {
     'use strict';
 
@@ -2231,11 +2231,11 @@ var app = (function () {
     			t1 = space();
     			p = element("p");
     			p.textContent = "You can find info about me and projects I have worked on from the menu\r\n    above.";
-    			attr_dev(h1, "class", "svelte-zwntq3");
+    			attr_dev(h1, "class", "svelte-1lygnui");
     			add_location(h1, file$e, 5, 2, 96);
-    			attr_dev(p, "class", "svelte-zwntq3");
+    			attr_dev(p, "class", "svelte-1lygnui");
     			add_location(p, file$e, 6, 2, 133);
-    			attr_dev(main, "class", "svelte-zwntq3");
+    			attr_dev(main, "class", "svelte-1lygnui");
     			add_location(main, file$e, 4, 0, 69);
     		},
     		l: function claim(nodes) {
@@ -2466,71 +2466,71 @@ var app = (function () {
     			t46 = space();
     			p11 = element("p");
     			p11.textContent = "Tieto- ja viestintätekniikan perustutkinto";
-    			attr_dev(h20, "class", "svelte-1r1twkt");
+    			attr_dev(h20, "class", "svelte-9f069s");
     			add_location(h20, file$d, 6, 4, 124);
-    			attr_dev(p0, "class", "svelte-1r1twkt");
+    			attr_dev(p0, "class", "svelte-9f069s");
     			add_location(p0, file$d, 7, 4, 147);
-    			attr_dev(div0, "class", "info-box svelte-1r1twkt");
+    			attr_dev(div0, "class", "info-box svelte-9f069s");
     			add_location(div0, file$d, 5, 2, 96);
-    			attr_dev(h21, "class", "svelte-1r1twkt");
+    			attr_dev(h21, "class", "svelte-9f069s");
     			add_location(h21, file$d, 14, 4, 428);
     			attr_dev(img, "id", "me");
     			if (!src_url_equal(img.src, img_src_value = "./images/me.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Picture of Me");
-    			attr_dev(img, "class", "svelte-1r1twkt");
+    			attr_dev(img, "class", "svelte-9f069s");
     			add_location(img, file$d, 16, 4, 505);
-    			attr_dev(div1, "class", "info-box svelte-1r1twkt");
+    			attr_dev(div1, "class", "info-box svelte-9f069s");
     			add_location(div1, file$d, 13, 2, 400);
-    			attr_dev(h22, "class", "svelte-1r1twkt");
+    			attr_dev(h22, "class", "svelte-9f069s");
     			add_location(h22, file$d, 19, 4, 604);
-    			attr_dev(p1, "class", "svelte-1r1twkt");
+    			attr_dev(p1, "class", "svelte-9f069s");
     			add_location(p1, file$d, 20, 4, 639);
-    			attr_dev(div2, "class", "info-box svelte-1r1twkt");
+    			attr_dev(div2, "class", "info-box svelte-9f069s");
     			add_location(div2, file$d, 18, 2, 576);
-    			attr_dev(h23, "class", "svelte-1r1twkt");
+    			attr_dev(h23, "class", "svelte-9f069s");
     			add_location(h23, file$d, 27, 4, 870);
     			add_location(h30, file$d, 28, 4, 891);
-    			attr_dev(p2, "class", "svelte-1r1twkt");
+    			attr_dev(p2, "class", "svelte-9f069s");
     			add_location(p2, file$d, 29, 4, 915);
-    			attr_dev(p3, "class", "svelte-1r1twkt");
+    			attr_dev(p3, "class", "svelte-9f069s");
     			add_location(p3, file$d, 30, 4, 953);
-    			attr_dev(div3, "class", "info-box svelte-1r1twkt");
+    			attr_dev(div3, "class", "info-box svelte-9f069s");
     			add_location(div3, file$d, 26, 2, 842);
-    			attr_dev(h24, "class", "svelte-1r1twkt");
+    			attr_dev(h24, "class", "svelte-9f069s");
     			add_location(h24, file$d, 33, 4, 1021);
     			add_location(h31, file$d, 35, 6, 1055);
-    			attr_dev(p4, "class", "svelte-1r1twkt");
+    			attr_dev(p4, "class", "svelte-9f069s");
     			add_location(p4, file$d, 36, 6, 1116);
-    			attr_dev(p5, "class", "svelte-1r1twkt");
+    			attr_dev(p5, "class", "svelte-9f069s");
     			add_location(p5, file$d, 37, 6, 1145);
-    			attr_dev(p6, "class", "svelte-1r1twkt");
+    			attr_dev(p6, "class", "svelte-9f069s");
     			add_location(p6, file$d, 41, 6, 1303);
     			add_location(div4, file$d, 34, 4, 1042);
     			add_location(br0, file$d, 43, 4, 1349);
     			add_location(h32, file$d, 45, 6, 1374);
-    			attr_dev(p7, "class", "svelte-1r1twkt");
+    			attr_dev(p7, "class", "svelte-9f069s");
     			add_location(p7, file$d, 46, 6, 1434);
-    			attr_dev(p8, "class", "svelte-1r1twkt");
+    			attr_dev(p8, "class", "svelte-9f069s");
     			add_location(p8, file$d, 47, 6, 1466);
-    			attr_dev(p9, "class", "svelte-1r1twkt");
+    			attr_dev(p9, "class", "svelte-9f069s");
     			add_location(p9, file$d, 51, 6, 1606);
     			add_location(div5, file$d, 44, 4, 1361);
-    			attr_dev(div6, "class", "info-box svelte-1r1twkt");
+    			attr_dev(div6, "class", "info-box svelte-9f069s");
     			add_location(div6, file$d, 32, 2, 993);
-    			attr_dev(h25, "class", "svelte-1r1twkt");
+    			attr_dev(h25, "class", "svelte-9f069s");
     			add_location(h25, file$d, 55, 4, 1688);
     			add_location(h33, file$d, 57, 6, 1725);
-    			attr_dev(p10, "class", "svelte-1r1twkt");
+    			attr_dev(p10, "class", "svelte-9f069s");
     			add_location(p10, file$d, 58, 6, 1794);
     			add_location(div7, file$d, 56, 4, 1712);
     			add_location(br1, file$d, 60, 4, 1863);
     			add_location(h34, file$d, 62, 6, 1888);
-    			attr_dev(p11, "class", "svelte-1r1twkt");
+    			attr_dev(p11, "class", "svelte-9f069s");
     			add_location(p11, file$d, 63, 6, 1944);
     			add_location(div8, file$d, 61, 4, 1875);
-    			attr_dev(div9, "class", "info-box svelte-1r1twkt");
+    			attr_dev(div9, "class", "info-box svelte-9f069s");
     			add_location(div9, file$d, 54, 2, 1660);
-    			attr_dev(main, "class", "svelte-1r1twkt");
+    			attr_dev(main, "class", "svelte-9f069s");
     			add_location(main, file$d, 4, 0, 69);
     		},
     		l: function claim(nodes) {
@@ -2699,26 +2699,26 @@ var app = (function () {
     			a1 = element("a");
     			p1 = element("p");
     			p1.textContent = "https://www.linkedin.com/in/jani-haakana/";
-    			attr_dev(h20, "class", "svelte-1kpc9cl");
+    			attr_dev(h20, "class", "svelte-34afsn");
     			add_location(h20, file$c, 6, 4, 130);
-    			attr_dev(p0, "class", "svelte-1kpc9cl");
+    			attr_dev(p0, "class", "svelte-34afsn");
     			add_location(p0, file$c, 7, 44, 190);
     			attr_dev(a0, "href", "mailto:AA4087@student.jamk.fi");
-    			attr_dev(a0, "class", "svelte-1kpc9cl");
+    			attr_dev(a0, "class", "svelte-34afsn");
     			add_location(a0, file$c, 7, 4, 150);
-    			attr_dev(div0, "class", "contact-detail svelte-1kpc9cl");
+    			attr_dev(div0, "class", "contact-detail svelte-34afsn");
     			add_location(div0, file$c, 5, 2, 96);
-    			attr_dev(h21, "class", "svelte-1kpc9cl");
+    			attr_dev(h21, "class", "svelte-34afsn");
     			add_location(h21, file$c, 10, 4, 271);
-    			attr_dev(p1, "class", "svelte-1kpc9cl");
+    			attr_dev(p1, "class", "svelte-34afsn");
     			add_location(p1, file$c, 12, 6, 370);
     			attr_dev(a1, "href", "https://www.linkedin.com/in/jani-haakana/");
     			attr_dev(a1, "target", "_blank");
-    			attr_dev(a1, "class", "svelte-1kpc9cl");
+    			attr_dev(a1, "class", "svelte-34afsn");
     			add_location(a1, file$c, 11, 4, 294);
-    			attr_dev(div1, "class", "contact-detail svelte-1kpc9cl");
+    			attr_dev(div1, "class", "contact-detail svelte-34afsn");
     			add_location(div1, file$c, 9, 2, 237);
-    			attr_dev(main, "class", "svelte-1kpc9cl");
+    			attr_dev(main, "class", "svelte-34afsn");
     			add_location(main, file$c, 4, 0, 69);
     		},
     		l: function claim(nodes) {
@@ -10439,7 +10439,7 @@ var app = (function () {
     			path = svg_element("path");
     			attr_dev(path, "d", "m296-345-56-56 240-240 240 240-56 56-184-184-184 184Z");
     			add_location(path, file$5, 57, 15, 1739);
-    			attr_dev(svg, "class", "less-arrow svelte-sea4bh");
+    			attr_dev(svg, "class", "less-arrow svelte-mk73xp");
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "height", "24");
     			attr_dev(svg, "viewBox", "0 -960 960 960");
@@ -10477,7 +10477,7 @@ var app = (function () {
     			path = svg_element("path");
     			attr_dev(path, "d", "M480-345 240-585l56-56 184 184 184-184 56 56-240 240Z");
     			add_location(path, file$5, 46, 15, 1390);
-    			attr_dev(svg, "class", "expand-arrow svelte-sea4bh");
+    			attr_dev(svg, "class", "expand-arrow svelte-mk73xp");
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "height", "24");
     			attr_dev(svg, "viewBox", "0 -960 960 960");
@@ -10589,17 +10589,17 @@ var app = (function () {
     			t7 = space();
     			p4 = element("p");
     			p4.textContent = "In summary, working on this school project involved me working in\r\n            different roles which not only included frontend developing and\r\n            working as the teams Scrum Master. The combination of technical\r\n            proficiency, design sensibility and adept project management ensured\r\n            the successful delivery of a cohesive and functional application.";
-    			attr_dev(p0, "class", "details svelte-sea4bh");
+    			attr_dev(p0, "class", "details svelte-mk73xp");
     			add_location(p0, file$5, 66, 10, 1995);
-    			attr_dev(p1, "class", "details svelte-sea4bh");
+    			attr_dev(p1, "class", "details svelte-mk73xp");
     			add_location(p1, file$5, 73, 10, 2419);
-    			attr_dev(p2, "class", "details svelte-sea4bh");
+    			attr_dev(p2, "class", "details svelte-mk73xp");
     			add_location(p2, file$5, 80, 10, 2796);
-    			attr_dev(p3, "class", "details svelte-sea4bh");
+    			attr_dev(p3, "class", "details svelte-mk73xp");
     			add_location(p3, file$5, 89, 10, 3346);
-    			attr_dev(p4, "class", "details svelte-sea4bh");
+    			attr_dev(p4, "class", "details svelte-mk73xp");
     			add_location(p4, file$5, 97, 10, 3840);
-    			attr_dev(div, "class", "details-whole svelte-sea4bh");
+    			attr_dev(div, "class", "details-whole svelte-mk73xp");
     			add_location(div, file$5, 65, 8, 1939);
     		},
     		m: function mount(target, anchor) {
@@ -10686,31 +10686,31 @@ var app = (function () {
     			img5 = element("img");
     			t5 = space();
     			img6 = element("img");
-    			attr_dev(img0, "class", "image svelte-sea4bh");
+    			attr_dev(img0, "class", "image svelte-mk73xp");
     			if (!src_url_equal(img0.src, img0_src_value = "./images/tournament-assembly-main-page.png")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "TournamentAssemblyPicture");
     			add_location(img0, file$5, 131, 6, 4987);
-    			attr_dev(img1, "class", "image svelte-sea4bh");
+    			attr_dev(img1, "class", "image svelte-mk73xp");
     			if (!src_url_equal(img1.src, img1_src_value = "./images/tournament-assembly-groups.png")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "TournamentAssemblyPicture");
     			add_location(img1, file$5, 136, 6, 5131);
-    			attr_dev(img2, "class", "image svelte-sea4bh");
+    			attr_dev(img2, "class", "image svelte-mk73xp");
     			if (!src_url_equal(img2.src, img2_src_value = "./images/tournament-assembly-league.png")) attr_dev(img2, "src", img2_src_value);
     			attr_dev(img2, "alt", "TournamentAssemblyPicture");
     			add_location(img2, file$5, 141, 6, 5272);
-    			attr_dev(img3, "class", "image svelte-sea4bh");
+    			attr_dev(img3, "class", "image svelte-mk73xp");
     			if (!src_url_equal(img3.src, img3_src_value = "./images/tournament-assembly-playoffs.png")) attr_dev(img3, "src", img3_src_value);
     			attr_dev(img3, "alt", "TournamentAssemblyPicture");
     			add_location(img3, file$5, 146, 6, 5413);
-    			attr_dev(img4, "class", "image svelte-sea4bh");
+    			attr_dev(img4, "class", "image svelte-mk73xp");
     			if (!src_url_equal(img4.src, img4_src_value = "./images/tournament-assembly-scoreboard.png")) attr_dev(img4, "src", img4_src_value);
     			attr_dev(img4, "alt", "TournamentAssemblyPicture");
     			add_location(img4, file$5, 151, 6, 5556);
-    			attr_dev(img5, "class", "image svelte-sea4bh");
+    			attr_dev(img5, "class", "image svelte-mk73xp");
     			if (!src_url_equal(img5.src, img5_src_value = "./images/tournament-assembly-responsive-1.png")) attr_dev(img5, "src", img5_src_value);
     			attr_dev(img5, "alt", "TournamentAssemblyPicture");
     			add_location(img5, file$5, 156, 6, 5701);
-    			attr_dev(img6, "class", "image svelte-sea4bh");
+    			attr_dev(img6, "class", "image svelte-mk73xp");
     			if (!src_url_equal(img6.src, img6_src_value = "./images/tournament-assembly-responsive-2.png")) attr_dev(img6, "src", img6_src_value);
     			attr_dev(img6, "alt", "TournamentAssemblyPicture");
     			add_location(img6, file$5, 161, 6, 5848);
@@ -10774,14 +10774,14 @@ var app = (function () {
     			path = svg_element("path");
     			attr_dev(path, "d", "m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z");
     			add_location(path, file$5, 126, 11, 4818);
-    			attr_dev(svg, "class", "back-arrow svelte-sea4bh");
+    			attr_dev(svg, "class", "back-arrow svelte-mk73xp");
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "height", "24");
     			attr_dev(svg, "viewBox", "0 -960 960 960");
     			attr_dev(svg, "width", "24");
     			add_location(svg, file$5, 120, 8, 4644);
     			attr_dev(div, "slot", "prev");
-    			attr_dev(div, "class", "custom-arrow custom-arrow-prev svelte-sea4bh");
+    			attr_dev(div, "class", "custom-arrow custom-arrow-prev svelte-mk73xp");
     			add_location(div, file$5, 115, 6, 4519);
     		},
     		m: function mount(target, anchor) {
@@ -10841,14 +10841,14 @@ var app = (function () {
     			path = svg_element("path");
     			attr_dev(path, "d", "m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z");
     			add_location(path, file$5, 178, 11, 6358);
-    			attr_dev(svg, "class", "next-arrow svelte-sea4bh");
+    			attr_dev(svg, "class", "next-arrow svelte-mk73xp");
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "height", "24");
     			attr_dev(svg, "viewBox", "0 -960 960 960");
     			attr_dev(svg, "width", "24");
     			add_location(svg, file$5, 172, 8, 6184);
     			attr_dev(div, "slot", "next");
-    			attr_dev(div, "class", "custom-arrow custom-arrow-next svelte-sea4bh");
+    			attr_dev(div, "class", "custom-arrow custom-arrow-next svelte-mk73xp");
     			add_location(div, file$5, 167, 6, 6059);
     		},
     		m: function mount(target, anchor) {
@@ -10911,15 +10911,15 @@ var app = (function () {
     			img1 = element("img");
     			t1 = space();
     			img2 = element("img");
-    			attr_dev(img0, "class", "image svelte-sea4bh");
+    			attr_dev(img0, "class", "image svelte-mk73xp");
     			if (!src_url_equal(img0.src, img0_src_value = "./images/cocktail-library-home.png")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "CocktailLibraryPicture");
     			add_location(img0, file$5, 231, 6, 7853);
-    			attr_dev(img1, "class", "image svelte-sea4bh");
+    			attr_dev(img1, "class", "image svelte-mk73xp");
     			if (!src_url_equal(img1.src, img1_src_value = "./images/cocktail-library-cocktails.png")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "CocktailLibraryPicture");
     			add_location(img1, file$5, 237, 6, 7988);
-    			attr_dev(img2, "class", "image svelte-sea4bh");
+    			attr_dev(img2, "class", "image svelte-mk73xp");
     			if (!src_url_equal(img2.src, img2_src_value = "./images/cocktail-library-cocktails-open.png")) attr_dev(img2, "src", img2_src_value);
     			attr_dev(img2, "alt", "CocktailLibraryPicture");
     			add_location(img2, file$5, 243, 6, 8128);
@@ -10967,14 +10967,14 @@ var app = (function () {
     			path = svg_element("path");
     			attr_dev(path, "d", "m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z");
     			add_location(path, file$5, 226, 11, 7684);
-    			attr_dev(svg, "class", "back-arrow svelte-sea4bh");
+    			attr_dev(svg, "class", "back-arrow svelte-mk73xp");
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "height", "24");
     			attr_dev(svg, "viewBox", "0 -960 960 960");
     			attr_dev(svg, "width", "24");
     			add_location(svg, file$5, 220, 8, 7510);
     			attr_dev(div, "slot", "prev");
-    			attr_dev(div, "class", "custom-arrow custom-arrow-prev svelte-sea4bh");
+    			attr_dev(div, "class", "custom-arrow custom-arrow-prev svelte-mk73xp");
     			add_location(div, file$5, 215, 6, 7385);
     		},
     		m: function mount(target, anchor) {
@@ -11034,14 +11034,14 @@ var app = (function () {
     			path = svg_element("path");
     			attr_dev(path, "d", "m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z");
     			add_location(path, file$5, 260, 11, 8634);
-    			attr_dev(svg, "class", "next-arrow svelte-sea4bh");
+    			attr_dev(svg, "class", "next-arrow svelte-mk73xp");
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "height", "24");
     			attr_dev(svg, "viewBox", "0 -960 960 960");
     			attr_dev(svg, "width", "24");
     			add_location(svg, file$5, 254, 8, 8460);
     			attr_dev(div, "slot", "next");
-    			attr_dev(div, "class", "custom-arrow custom-arrow-next svelte-sea4bh");
+    			attr_dev(div, "class", "custom-arrow custom-arrow-next svelte-mk73xp");
     			add_location(div, file$5, 249, 6, 8335);
     		},
     		m: function mount(target, anchor) {
@@ -11099,11 +11099,11 @@ var app = (function () {
     			img0 = element("img");
     			t = space();
     			img1 = element("img");
-    			attr_dev(img0, "class", "image svelte-sea4bh");
+    			attr_dev(img0, "class", "image svelte-mk73xp");
     			if (!src_url_equal(img0.src, img0_src_value = "./images/ui-final.png")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "UI-Design1");
     			add_location(img0, file$5, 311, 6, 10270);
-    			attr_dev(img1, "class", "image svelte-sea4bh");
+    			attr_dev(img1, "class", "image svelte-mk73xp");
     			if (!src_url_equal(img1.src, img1_src_value = "./images/wireframe.png")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "UI-Design2");
     			add_location(img1, file$5, 312, 6, 10344);
@@ -11147,14 +11147,14 @@ var app = (function () {
     			path = svg_element("path");
     			attr_dev(path, "d", "m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z");
     			add_location(path, file$5, 306, 11, 10101);
-    			attr_dev(svg, "class", "back-arrow svelte-sea4bh");
+    			attr_dev(svg, "class", "back-arrow svelte-mk73xp");
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "height", "24");
     			attr_dev(svg, "viewBox", "0 -960 960 960");
     			attr_dev(svg, "width", "24");
     			add_location(svg, file$5, 300, 8, 9927);
     			attr_dev(div, "slot", "prev");
-    			attr_dev(div, "class", "custom-arrow custom-arrow-prev svelte-sea4bh");
+    			attr_dev(div, "class", "custom-arrow custom-arrow-prev svelte-mk73xp");
     			add_location(div, file$5, 295, 6, 9802);
     		},
     		m: function mount(target, anchor) {
@@ -11214,14 +11214,14 @@ var app = (function () {
     			path = svg_element("path");
     			attr_dev(path, "d", "m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z");
     			add_location(path, file$5, 325, 11, 10782);
-    			attr_dev(svg, "class", "next-arrow svelte-sea4bh");
+    			attr_dev(svg, "class", "next-arrow svelte-mk73xp");
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "height", "24");
     			attr_dev(svg, "viewBox", "0 -960 960 960");
     			attr_dev(svg, "width", "24");
     			add_location(svg, file$5, 319, 8, 10608);
     			attr_dev(div, "slot", "next");
-    			attr_dev(div, "class", "custom-arrow custom-arrow-next svelte-sea4bh");
+    			attr_dev(div, "class", "custom-arrow custom-arrow-next svelte-mk73xp");
     			add_location(div, file$5, 314, 6, 10483);
     		},
     		m: function mount(target, anchor) {
@@ -11475,73 +11475,73 @@ var app = (function () {
     			img2 = element("img");
     			t22 = space();
     			create_component(carousel2.$$.fragment);
-    			attr_dev(h20, "class", "svelte-sea4bh");
+    			attr_dev(h20, "class", "svelte-mk73xp");
     			add_location(h20, file$5, 14, 6, 335);
     			add_location(br0, file$5, 18, 8, 510);
-    			attr_dev(p0, "class", "description svelte-sea4bh");
+    			attr_dev(p0, "class", "description svelte-mk73xp");
     			add_location(p0, file$5, 15, 6, 371);
-    			attr_dev(div0, "class", "work-info svelte-sea4bh");
+    			attr_dev(div0, "class", "work-info svelte-mk73xp");
     			add_location(div0, file$5, 13, 4, 304);
     			attr_dev(img0, "id", "github");
     			if (!src_url_equal(img0.src, img0_src_value = "./images/GitHub_Logo_White.png")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "GitHubImage");
-    			attr_dev(img0, "class", "svelte-sea4bh");
+    			attr_dev(img0, "class", "svelte-mk73xp");
     			add_location(img0, file$5, 28, 8, 855);
     			attr_dev(a0, "href", "https://github.com/jamktiko/TournamentAssembly-svelte");
     			attr_dev(a0, "target", "_blank");
-    			attr_dev(a0, "class", "svelte-sea4bh");
+    			attr_dev(a0, "class", "svelte-mk73xp");
     			add_location(a0, file$5, 24, 6, 739);
-    			attr_dev(div1, "class", "work-links svelte-sea4bh");
+    			attr_dev(div1, "class", "work-links svelte-mk73xp");
     			add_location(div1, file$5, 23, 4, 707);
-    			attr_dev(div2, "class", "show-info svelte-sea4bh");
+    			attr_dev(div2, "class", "show-info svelte-mk73xp");
     			add_location(div2, file$5, 36, 6, 1014);
     			add_location(div3, file$5, 35, 4, 1001);
-    			attr_dev(div4, "class", "work-box svelte-sea4bh");
+    			attr_dev(div4, "class", "work-box svelte-mk73xp");
     			add_location(div4, file$5, 12, 2, 276);
-    			attr_dev(hr0, "class", "divider svelte-sea4bh");
+    			attr_dev(hr0, "class", "divider svelte-mk73xp");
     			add_location(hr0, file$5, 185, 2, 6550);
-    			attr_dev(h21, "class", "svelte-sea4bh");
+    			attr_dev(h21, "class", "svelte-mk73xp");
     			add_location(h21, file$5, 188, 6, 6635);
-    			attr_dev(p1, "class", "description svelte-sea4bh");
+    			attr_dev(p1, "class", "description svelte-mk73xp");
     			add_location(p1, file$5, 189, 6, 6668);
-    			attr_dev(div5, "class", "work-info svelte-sea4bh");
+    			attr_dev(div5, "class", "work-info svelte-mk73xp");
     			add_location(div5, file$5, 187, 4, 6604);
     			attr_dev(img1, "id", "github");
     			if (!src_url_equal(img1.src, img1_src_value = "./images/GitHub_Logo_White.png")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "GitHubImage");
-    			attr_dev(img1, "class", "svelte-sea4bh");
+    			attr_dev(img1, "class", "svelte-mk73xp");
     			add_location(img1, file$5, 200, 8, 7036);
     			attr_dev(a1, "href", "https://github.com/Jani-H/cocktail-library-aa4087");
     			attr_dev(a1, "target", "_blank");
-    			attr_dev(a1, "class", "svelte-sea4bh");
+    			attr_dev(a1, "class", "svelte-mk73xp");
     			add_location(a1, file$5, 196, 6, 6924);
-    			attr_dev(div6, "class", "work-links svelte-sea4bh");
+    			attr_dev(div6, "class", "work-links svelte-mk73xp");
     			add_location(div6, file$5, 195, 4, 6892);
-    			attr_dev(div7, "class", "work-box svelte-sea4bh");
+    			attr_dev(div7, "class", "work-box svelte-mk73xp");
     			add_location(div7, file$5, 186, 2, 6576);
-    			attr_dev(hr1, "class", "divider svelte-sea4bh");
+    			attr_dev(hr1, "class", "divider svelte-mk73xp");
     			add_location(hr1, file$5, 267, 2, 8826);
-    			attr_dev(h22, "class", "svelte-sea4bh");
+    			attr_dev(h22, "class", "svelte-mk73xp");
     			add_location(h22, file$5, 270, 6, 8911);
     			add_location(br1, file$5, 274, 8, 9142);
-    			attr_dev(p2, "class", "description svelte-sea4bh");
+    			attr_dev(p2, "class", "description svelte-mk73xp");
     			add_location(p2, file$5, 271, 6, 8957);
-    			attr_dev(div8, "class", "work-info svelte-sea4bh");
+    			attr_dev(div8, "class", "work-info svelte-mk73xp");
     			add_location(div8, file$5, 269, 4, 8880);
     			attr_dev(img2, "id", "figma");
     			if (!src_url_equal(img2.src, img2_src_value = "./images/figma-logo.webp")) attr_dev(img2, "src", img2_src_value);
     			attr_dev(img2, "alt", "FigmaImage");
-    			attr_dev(img2, "class", "svelte-sea4bh");
+    			attr_dev(img2, "class", "svelte-mk73xp");
     			add_location(img2, file$5, 284, 8, 9503);
     			attr_dev(a2, "href", "https://www.figma.com/file/ddiSMnFX98X71chtMVBeZt/Lopputy%C3%B6-Rautalankamalli-ja-UI-suunnitelma?node-id=0%3A1");
     			attr_dev(a2, "target", "_blank");
-    			attr_dev(a2, "class", "svelte-sea4bh");
+    			attr_dev(a2, "class", "svelte-mk73xp");
     			add_location(a2, file$5, 280, 6, 9329);
-    			attr_dev(div9, "class", "work-links svelte-sea4bh");
+    			attr_dev(div9, "class", "work-links svelte-mk73xp");
     			add_location(div9, file$5, 279, 4, 9297);
-    			attr_dev(div10, "class", "work-box svelte-sea4bh");
+    			attr_dev(div10, "class", "work-box svelte-mk73xp");
     			add_location(div10, file$5, 268, 2, 8852);
-    			attr_dev(main, "class", "svelte-sea4bh");
+    			attr_dev(main, "class", "svelte-mk73xp");
     			add_location(main, file$5, 11, 0, 249);
     		},
     		l: function claim(nodes) {
@@ -11942,9 +11942,9 @@ var app = (function () {
     			attr_dev(svg, "height", "24");
     			attr_dev(svg, "viewBox", "0 -960 960 960");
     			attr_dev(svg, "width", "24");
-    			attr_dev(svg, "class", "svelte-m300wi");
+    			attr_dev(svg, "class", "svelte-mqqdnp");
     			add_location(svg, file$2, 22, 9, 693);
-    			attr_dev(a, "class", "svelte-m300wi");
+    			attr_dev(a, "class", "svelte-mqqdnp");
     			add_location(a, file$2, 21, 6, 653);
     		},
     		m: function mount(target, anchor) {
@@ -11998,9 +11998,9 @@ var app = (function () {
     			attr_dev(svg, "height", "24");
     			attr_dev(svg, "viewBox", "0 -960 960 960");
     			attr_dev(svg, "width", "24");
-    			attr_dev(svg, "class", "svelte-m300wi");
+    			attr_dev(svg, "class", "svelte-mqqdnp");
     			add_location(svg, file$2, 10, 9, 301);
-    			attr_dev(a, "class", "a-underlined svelte-m300wi");
+    			attr_dev(a, "class", "a-underlined svelte-mqqdnp");
     			add_location(a, file$2, 9, 6, 240);
     		},
     		m: function mount(target, anchor) {
@@ -12054,9 +12054,9 @@ var app = (function () {
     			attr_dev(svg, "height", "24");
     			attr_dev(svg, "viewBox", "0 -960 960 960");
     			attr_dev(svg, "width", "24");
-    			attr_dev(svg, "class", "svelte-m300wi");
+    			attr_dev(svg, "class", "svelte-mqqdnp");
     			add_location(svg, file$2, 49, 9, 1958);
-    			attr_dev(a, "class", "svelte-m300wi");
+    			attr_dev(a, "class", "svelte-mqqdnp");
     			add_location(a, file$2, 48, 6, 1913);
     		},
     		m: function mount(target, anchor) {
@@ -12110,9 +12110,9 @@ var app = (function () {
     			attr_dev(svg, "height", "24");
     			attr_dev(svg, "viewBox", "0 -960 960 960");
     			attr_dev(svg, "width", "24");
-    			attr_dev(svg, "class", "svelte-m300wi");
+    			attr_dev(svg, "class", "svelte-mqqdnp");
     			add_location(svg, file$2, 37, 9, 1255);
-    			attr_dev(a, "class", "a-underlined svelte-m300wi");
+    			attr_dev(a, "class", "a-underlined svelte-mqqdnp");
     			add_location(a, file$2, 36, 6, 1189);
     		},
     		m: function mount(target, anchor) {
@@ -12166,9 +12166,9 @@ var app = (function () {
     			attr_dev(svg, "height", "24");
     			attr_dev(svg, "viewBox", "0 -960 960 960");
     			attr_dev(svg, "width", "24");
-    			attr_dev(svg, "class", "svelte-m300wi");
+    			attr_dev(svg, "class", "svelte-mqqdnp");
     			add_location(svg, file$2, 76, 9, 3259);
-    			attr_dev(a, "class", "svelte-m300wi");
+    			attr_dev(a, "class", "svelte-mqqdnp");
     			add_location(a, file$2, 75, 6, 3211);
     		},
     		m: function mount(target, anchor) {
@@ -12222,9 +12222,9 @@ var app = (function () {
     			attr_dev(svg, "height", "24");
     			attr_dev(svg, "viewBox", "0 -960 960 960");
     			attr_dev(svg, "width", "24");
-    			attr_dev(svg, "class", "svelte-m300wi");
+    			attr_dev(svg, "class", "svelte-mqqdnp");
     			add_location(svg, file$2, 64, 9, 2832);
-    			attr_dev(a, "class", "a-underlined svelte-m300wi");
+    			attr_dev(a, "class", "a-underlined svelte-mqqdnp");
     			add_location(a, file$2, 63, 6, 2763);
     		},
     		m: function mount(target, anchor) {
@@ -12278,9 +12278,9 @@ var app = (function () {
     			attr_dev(svg, "height", "24");
     			attr_dev(svg, "viewBox", "0 -960 960 960");
     			attr_dev(svg, "width", "24");
-    			attr_dev(svg, "class", "svelte-m300wi");
+    			attr_dev(svg, "class", "svelte-mqqdnp");
     			add_location(svg, file$2, 103, 9, 4617);
-    			attr_dev(a, "class", "svelte-m300wi");
+    			attr_dev(a, "class", "svelte-mqqdnp");
     			add_location(a, file$2, 102, 6, 4570);
     		},
     		m: function mount(target, anchor) {
@@ -12334,9 +12334,9 @@ var app = (function () {
     			attr_dev(svg, "height", "24");
     			attr_dev(svg, "viewBox", "0 -960 960 960");
     			attr_dev(svg, "width", "24");
-    			attr_dev(svg, "class", "svelte-m300wi");
+    			attr_dev(svg, "class", "svelte-mqqdnp");
     			add_location(svg, file$2, 91, 9, 3852);
-    			attr_dev(a, "class", "a-underlined svelte-m300wi");
+    			attr_dev(a, "class", "a-underlined svelte-mqqdnp");
     			add_location(a, file$2, 90, 6, 3784);
     		},
     		m: function mount(target, anchor) {
@@ -12420,7 +12420,7 @@ var app = (function () {
     			t2 = space();
     			if_block3.c();
     			add_location(ul, file$2, 5, 2, 87);
-    			attr_dev(nav, "class", "svelte-m300wi");
+    			attr_dev(nav, "class", "svelte-mqqdnp");
     			add_location(nav, file$2, 4, 0, 78);
     		},
     		l: function claim(nodes) {

@@ -42,4 +42,10 @@
     justify-content: center;
     text-align: center;
   }
+
+  @media screen and (max-width: 700px) {
+    main {
+      margin: 1em 1em;
+    }
+  }
 </style>

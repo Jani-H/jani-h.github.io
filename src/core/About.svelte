@@ -100,4 +100,11 @@
   img {
     border-radius: 10px;
   }
+
+  @media screen and (max-width: 700px) {
+    main {
+      margin: 1em 1em;
+      grid-template-columns: 1fr;
+    }
+  }
 </style>

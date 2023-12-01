@@ -140,4 +140,10 @@
     width: 1em;
     margin-right: 0.1em;
   }
+
+  @media screen and (max-width: 400px) {
+    a {
+      padding: 0.25em;
+    }
+  }
 </style>

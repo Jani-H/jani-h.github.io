@@ -141,7 +141,7 @@
     margin-right: 0.1em;
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 425px) {
     a {
       padding: 0.25em;
     }

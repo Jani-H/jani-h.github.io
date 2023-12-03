@@ -36,7 +36,7 @@
     font-size: 1.2em;
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 425px) {
     main {
       margin: 1em 1em;
     }

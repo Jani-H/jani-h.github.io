@@ -19,6 +19,10 @@
         <br />
         I worked on the applications frontend and UI/UX where I created necessary
         components, content and made the site responsive for mobile devices.
+        <br />
+        We used svelte for building the frontend with reactive components, transitions,
+        carousels for displaying images. The application also employes responsive
+        design through media queries to ensure mobile compatibility.
       </p>
     </div>
     <div class="work-links">

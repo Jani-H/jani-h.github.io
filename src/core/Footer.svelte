@@ -2,7 +2,7 @@
 </script>
 
 <div class="footer">
-  <h3>© 2023 Jani Haakana</h3>
+  <h3>© 2025 Jani Haakana</h3>
 </div>
 
 <style>

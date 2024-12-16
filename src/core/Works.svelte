@@ -193,8 +193,9 @@
       <h2>Cocktail Library</h2>
       <p class="description">
         I created this application as a final assignment for JAMK's Frontend
-        Basics course. I had fun creating this application by using an public
-        API.
+        Basics course. I enjoyed creating this application by using an public
+        API. Technology wise the application was created using Svelte &
+        JavaScript.
       </p>
     </div>
     <div class="work-links">

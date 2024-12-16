@@ -6,7 +6,7 @@
   <div class="info-box">
     <h2>About me</h2>
     <p>
-      I am 33 year old student and I currently live at Ainola, Jyväskylä. I
+      I am 34 year old student and I currently live at Ainola, Jyväskylä. I
       study Business Information Technology at Jyväskylä University of Applied
       Sciences. I hope to specialize in programming and web design.
     </p>
@@ -55,7 +55,7 @@
   <div class="info-box">
     <h2>Education</h2>
     <div>
-      <h3>Jyväskylä University of Applied Sciences, XX.XX.20XX</h3>
+      <h3>Jyväskylä University of Applied Sciences, 1.6.2025 (arvio)</h3>
       <p>Tietojenkäsittely tradenomi tutkinto-ohjelma</p>
     </div>
     <br />
